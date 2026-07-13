@@ -49,7 +49,8 @@
         </header>
         <div class="flex items-center justify-center w-full transition-opacity opacity-100 duration-750 lg:grow starting:opacity-0">
             <main class="flex max-w-[335px] w-full flex-col-reverse lg:max-w-4xl lg:flex-row">
-                <a href="alex" target="_blank" class="inline-flex items-center space-x-1 font-medium underline underline-offset-4 text-[#f53003] dark:text-[#FF4433] ml-1">
+            <div class="flex flex-col gap-2">    
+            <a href="alex" target="_blank" class="inline-flex items-center space-x-1 font-medium underline underline-offset-4 text-[#f53003] dark:text-[#FF4433] ml-1">
                     <span>Ir al modulo de Alex Vedia</span>
                                     <svg
                                         width="10"
@@ -65,7 +66,25 @@
                                             stroke-linecap="square"
                                         />
                                     </svg>
-                                </a>
+                </a>
+                <a href="joaquin" target="_blank" class="inline-flex items-center space-x-1 font-medium underline underline-offset-4 text-[#f53003] dark:text-[#FF4433] ml-1">
+                    <span>Ir al modulo de Joaquin Maita</span>
+                                    <svg
+                                        width="10"
+                                        height="11"
+                                        viewBox="0 0 10 11"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        class="w-2.5 h-2.5"
+                                    >
+                                        <path
+                                            d="M7.70833 6.95834V2.79167H3.54167M2.5 8L7.5 3.00001"
+                                            stroke="currentColor"
+                                            stroke-linecap="square"
+                                        />
+                                    </svg>
+                </a>
+</div>
                 <div class="text-[13px] leading-[20px] flex-1 p-6 pb-6 lg:p-20 lg:pb-10 bg-white dark:bg-[#161615] dark:text-[#EDEDEC] shadow-[inset_0px_0px_0px_1px_rgba(26,26,0,0.16)] dark:shadow-[inset_0px_0px_0px_1px_#fffaed2d] rounded-bl-lg rounded-br-lg lg:rounded-tl-lg lg:rounded-br-none">
                     <h1 class="mb-1 font-medium">Let's get started</h1>
                     <p class="mb-2 text-[#706f6c] dark:text-[#A1A09A]">RUBEN ALEX VEDIA CASTRO,<br /> JUAN GABRIEL FERRUFINO VASQUEZ</p>
