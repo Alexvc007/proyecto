@@ -11,3 +11,6 @@ Route::get('/alex', function (){
 Route::get('/joaquin', function (){
     return view('joaquin');
 });
+Route::get('/gabriel', function (){
+    return view('gabriel');
+});
