@@ -23,3 +23,6 @@ Route::get('/gabriel', function (){
 Route::get('/yordy', function (){
     return view('yordy');
 });
+
+
+/*empleados y reportes*/
