@@ -15,7 +15,10 @@
 ![Boceto de empleado](assets/reporte.png)
 
 
-
+![Boceto de login](assets/bocetologin.png)
+![Boceto de login](assets/login.png)
+![Boceto de repuestos](assets/bocetorepuesto.jpg)
+![Boceto de repuestos](assets/repuestos.jpg)
 
 ![Boceto de empleado](assets/Autos_MOCKUPS.png)
 ![Boceto de empleado](assets/Autos_WIREFRAMES.png)
