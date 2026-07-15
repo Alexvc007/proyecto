@@ -1,0 +1,16 @@
+parameters:
+    checkMissingIterableValueType: false
+    checkGenericClassInNonGenericObjectType: false
+
+includes:
+    - vendor/phpstan/phpstan/conf/config.level8.neon
+
+services:
+    -
+        class: PHPStan\Rules\Methods\CallMethodsRule
+        arguments:
+            checkMissingTypehints: false
+            checkMethodExists: false
+
+rules:
+    - PHPStan\Rules\Methods\CallToMethodStaticWithoutClassTypeRule

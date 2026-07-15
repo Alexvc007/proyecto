@@ -59,3 +59,64 @@
         aside { display: none; }
     }
 }
+@import 'tailwindcss';
+
+
+@layer base {
+    :root {
+        color-scheme: dark;
+        font-family: var(--font-sans);
+        background-color: #020617;
+        text-rendering: optimizeLegibility;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        min-height: 100vh;
+        margin: 0;
+        background: radial-gradient(circle at top, rgba(56, 189, 248, 0.18), transparent 35%),
+            linear-gradient(180deg, #020617 0%, #040d1f 100%);
+        color: #f8fafc;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    ::selection {
+        background: rgba(56, 189, 248, 0.35);
+        color: #ffffff;
+    }
+}
+
+
+@layer components {
+    /* Dashboard specific tweaks */
+    .sidebar-scroll {
+        height: calc(100vh - 48px);
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* Card accents */
+    .card-accent {
+        background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+        border-radius: 12px;
+    }
+
+    /* Small responsive helpers */
+    @media (max-width: 768px) {
+        .lg\:grid-cols-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        aside { display: none; }
+    }
+}
