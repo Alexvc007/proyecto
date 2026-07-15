@@ -9,7 +9,7 @@
 
 
 
-(assets/bocetoempleado.png)
+![Boceto de empleado](assets/bocetoempleado.png)
 
 
 
