@@ -10,6 +10,10 @@
 
 
 ![Boceto de empleado](assets/bocetoempleado.png)
+![Boceto de empleado](assets/bocetoreporte.png)
+![Boceto de empleado](assets/empleadofinal.png)
+![Boceto de empleado](assets/reporte.png)
+
 
 
 
